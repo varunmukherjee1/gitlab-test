@@ -1,9 +1,11 @@
 require "sidekiq/web"
 
 Rails.application.routes.draw do
-  root to: "events#index"
+  root to: "home#index"
+  # root to: "events#index"
 
   resources :events
+  resources :users
 
   # Sidekiq dashboard. Add authentication before exposing this in a real app.
   mount Sidekiq::Web => "/sidekiq"

@@ -10,5 +10,10 @@
   <%= @event.date %>
 </p>
 
+<p>
+  <strong>Assigned User:</strong>
+  <%= link_to @event.user&.name, user_path(@event.user) %>
+</p>
+
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
