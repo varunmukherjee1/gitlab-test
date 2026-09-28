@@ -2320,4 +2320,966 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.7ms)
 
 
-  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/sidekiq" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/sidekiq/stylesheets/bootstrap.css" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/stylesheets/application.css" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/javascripts/chartjs-plugin-annotation.min.js" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/javascripts/base-charts.js" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/stylesheets/application-dark.css" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/javascripts/dashboard-charts.js" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/javascripts/application.js" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/images/status.png" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/javascripts/dashboard.js" for 127.0.0.1 at 2026-09-28 10:46:31 +0530
+Started GET "/sidekiq/javascripts/chart.min.js" for 127.0.0.1 at 2026-09-28 10:46:32 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:46:32 +0530
+Started GET "/sidekiq/images/favicon.ico" for 127.0.0.1 at 2026-09-28 10:46:32 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:46:37 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:46:42 +0530
+Started GET "/sidekiq/morgue" for 127.0.0.1 at 2026-09-28 10:46:44 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 10:46:46 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:46:46 +0530
+Started GET "/sidekiq/busy" for 127.0.0.1 at 2026-09-28 10:46:50 +0530
+Started GET "/sidekiq/queues" for 127.0.0.1 at 2026-09-28 10:46:52 +0530
+Started GET "/sidekiq/retries" for 127.0.0.1 at 2026-09-28 10:46:53 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 10:46:55 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:46:55 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:00 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:06 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:11 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:16 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:26 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:31 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:36 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:41 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:46 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:51 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:47:56 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:48:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:49:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:50:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:51:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:52:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:53:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:54:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:55:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:56:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:57:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:58:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 10:59:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:00:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:01:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:02:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:03:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:04:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:26 +0530
+Started GET "/" for ::1 at 2026-09-28 11:19:27 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | GC: 0.7ms)
+Completed 200 OK in 28ms (Views: 18.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.7ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:30 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:19:31 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:31 +0530
+Started GET "/events" for ::1 at 2026-09-28 11:19:34 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (1.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  Rendered events/index.html.erb within layouts/application (Duration: 68.5ms | GC: 31.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | GC: 32.8ms)
+Completed 200 OK in 98ms (Views: 70.1ms | ActiveRecord: 5.2ms (3 queries, 1 cached) | GC: 38.5ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:37 +0530
+Started GET "/events/new" for ::1 at 2026-09-28 11:19:37 +0530
+Processing by EventsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/events/_form.html.erb:26
+  Rendered events/_form.html.erb (Duration: 13.6ms | GC: 0.2ms)
+  Rendered events/new.html.erb within layouts/application (Duration: 15.3ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | GC: 0.3ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:42 +0530
+Started POST "/events" for ::1 at 2026-09-28 11:19:43 +0530
+Processing by EventsController#create as HTML
+  Parameters: {"authenticity_token"=>"DZpk1Cku4JCh-kIOlzt0hWUxOO4KtIrttV898UPp83QHPT7iUjJWY_9_dzZseXiSr5J_aIKxSCImGRrTJTKEgg", "event"=>{"title"=>"event 3", "date(1i)"=>"2026", "date(2i)"=>"9", "date(3i)"=>"28", "user_id"=>"3"}, "commit"=>"Create Event"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mEvent Create (1.4ms)[0m  [1m[32mINSERT INTO "events" ("title", "date", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", "event 3"], ["date", "2026-09-28"], ["created_at", "2026-09-28 05:49:43.807994"], ["updated_at", "2026-09-28 05:49:43.807994"], ["user_id", 3]]
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/events/3
+Completed 302 Found in 7ms (ActiveRecord: 1.5ms (1 query, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/events/3" for ::1 at 2026-09-28 11:19:43 +0530
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/events/show.html.erb:15
+  Rendered events/show.html.erb within layouts/application (Duration: 2.9ms | GC: 0.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | GC: 0.6ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:46 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:19:47 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:47 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:53 +0530
+Started GET "/events" for ::1 at 2026-09-28 11:19:54 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  Rendered events/index.html.erb within layouts/application (Duration: 9.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | GC: 0.0ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.3ms (4 queries, 1 cached) | GC: 0.0ms)
+
+
+Started GET "/events/1/edit" for ::1 at 2026-09-28 11:19:56 +0530
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/events/_form.html.erb:26
+  Rendered events/_form.html.erb (Duration: 9.3ms | GC: 0.0ms)
+  Rendered events/edit.html.erb within layouts/application (Duration: 10.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 0.3ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:19:58 +0530
+Started PATCH "/events/1" for ::1 at 2026-09-28 11:19:59 +0530
+Processing by EventsController#update as HTML
+  Parameters: {"authenticity_token"=>"IXkKe13feIFPC6caa3fA0y5wYRzYDjV16CrVw-rF4YAr3lBNJsPOchGOkiKQNczE5NMmmlAL97p7bPLhjB6Wdg", "event"=>{"title"=>"event 11", "date(1i)"=>"2026", "date(2i)"=>"9", "date(3i)"=>"27", "user_id"=>"2"}, "commit"=>"Update Event", "id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mEvent Update (1.1ms)[0m  [1m[33mUPDATE "events" SET "title" = ?, "updated_at" = ? WHERE "events"."id" = ?[0m  [["title", "event 11"], ["updated_at", "2026-09-28 05:49:59.619026"], ["id", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+[ActiveJob] Enqueued NotificationJob (Job ID: 28c416a3-6d71-466e-bb76-a8cf06e504f4) to Sidekiq(default) with arguments: "Event", 1
+Redirected to http://localhost:3000/events/1
+Completed 302 Found in 50ms (ActiveRecord: 1.4ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/events/1" for ::1 at 2026-09-28 11:19:59 +0530
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/show.html.erb:15
+  Rendered events/show.html.erb within layouts/application (Duration: 1.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.1ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2026-09-28 11:20:01 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:16
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  Rendered events/index.html.erb within layouts/application (Duration: 11.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | GC: 0.0ms)
+Completed 200 OK in 19ms (Views: 14.6ms | ActiveRecord: 4.3ms (4 queries, 1 cached) | GC: 0.0ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:03 +0530
+Started GET "/events/2/edit" for ::1 at 2026-09-28 11:20:03 +0530
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/events/_form.html.erb:26
+  Rendered events/_form.html.erb (Duration: 6.0ms | GC: 0.0ms)
+  Rendered events/edit.html.erb within layouts/application (Duration: 7.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 11.3ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started PATCH "/events/2" for ::1 at 2026-09-28 11:20:05 +0530
+Processing by EventsController#update as HTML
+  Parameters: {"authenticity_token"=>"e0rjqcizDMlilm-fr9fMNjsSvXeOqort4QexcIV1cThx7bmfs6-6OjwTWqdUlcAh8bH68QavSCJyQZZS464Gzg", "event"=>{"title"=>"event 22", "date(1i)"=>"2026", "date(2i)"=>"9", "date(3i)"=>"27", "user_id"=>"2"}, "commit"=>"Update Event", "id"=>"2"}
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mEvent Update (4.9ms)[0m  [1m[33mUPDATE "events" SET "title" = ?, "updated_at" = ? WHERE "events"."id" = ?[0m  [["title", "event 22"], ["updated_at", "2026-09-28 05:50:05.639143"], ["id", 2]]
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+[ActiveJob] Enqueued NotificationJob (Job ID: 83e4b76c-dae2-4d4a-94b9-597072aedd05) to Sidekiq(default) with arguments: "Event", 2
+Redirected to http://localhost:3000/events/2
+Completed 302 Found in 36ms (ActiveRecord: 8.1ms (2 queries, 0 cached) | GC: 18.2ms)
+
+
+Started GET "/events/2" for ::1 at 2026-09-28 11:20:05 +0530
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/show.html.erb:15
+  Rendered events/show.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | GC: 0.5ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.4ms (2 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:07 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:12 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:17 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:23 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:28 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:33 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:38 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:42 +0530
+Started GET "/events/2/edit" for ::1 at 2026-09-28 11:20:46 +0530
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/events/_form.html.erb:26
+  Rendered events/_form.html.erb (Duration: 6.7ms | GC: 0.0ms)
+  Rendered events/edit.html.erb within layouts/application (Duration: 7.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | GC: 0.2ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:48 +0530
+Started PATCH "/events/2" for ::1 at 2026-09-28 11:20:48 +0530
+Processing by EventsController#update as HTML
+  Parameters: {"authenticity_token"=>"0p016lzlfQC5MmEd22RsGggzZhRjGzr_tTjUHm8hsobYOm_cJ_nL8-e3VCUgJmANwpAhkuse-DAmfvM8CfrFcA", "event"=>{"title"=>"event 2", "date(1i)"=>"2026", "date(2i)"=>"9", "date(3i)"=>"27", "user_id"=>"2"}, "commit"=>"Update Event", "id"=>"2"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mEvent Update (1.4ms)[0m  [1m[33mUPDATE "events" SET "title" = ?, "updated_at" = ? WHERE "events"."id" = ?[0m  [["title", "event 2"], ["updated_at", "2026-09-28 05:50:48.838071"], ["id", 2]]
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+[ActiveJob] Enqueued NotificationJob (Job ID: 37d3a89b-6925-42d5-8611-a261797d6806) to Sidekiq(default) with arguments: "Event", 2
+Redirected to http://localhost:3000/events/2
+Completed 302 Found in 13ms (ActiveRecord: 1.7ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/events/2" for ::1 at 2026-09-28 11:20:48 +0530
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/show.html.erb:15
+  Rendered events/show.html.erb within layouts/application (Duration: 2.1ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | GC: 0.4ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/events" for ::1 at 2026-09-28 11:20:50 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  Rendered events/index.html.erb within layouts/application (Duration: 21.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | GC: 0.2ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.2ms (4 queries, 1 cached) | GC: 0.2ms)
+
+
+Started GET "/events/1/edit" for ::1 at 2026-09-28 11:20:52 +0530
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/events/_form.html.erb:26
+  Rendered events/_form.html.erb (Duration: 8.5ms | GC: 0.2ms)
+  Rendered events/edit.html.erb within layouts/application (Duration: 9.9ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | GC: 0.2ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:53 +0530
+Started PATCH "/events/1" for ::1 at 2026-09-28 11:20:55 +0530
+Processing by EventsController#update as HTML
+  Parameters: {"authenticity_token"=>"ADoM2-o0-uoPZbt7JeH0KrUo6PsCVHFZnUWmHuicnXkKnVbtkShMGVHgjkPeo_g9f4uvfYpRs5YOA4E8jkfqjw", "event"=>{"title"=>"event 1", "date(1i)"=>"2026", "date(2i)"=>"9", "date(3i)"=>"27", "user_id"=>"2"}, "commit"=>"Update Event", "id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mEvent Update (0.7ms)[0m  [1m[33mUPDATE "events" SET "title" = ?, "updated_at" = ? WHERE "events"."id" = ?[0m  [["title", "event 1"], ["updated_at", "2026-09-28 05:50:55.462746"], ["id", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:44:in `block in update'
+[ActiveJob] Enqueued NotificationJob (Job ID: 934460fd-da3b-4ac8-a76b-6b5027853550) to Sidekiq(default) with arguments: "Event", 1
+Redirected to http://localhost:3000/events/1
+Completed 302 Found in 11ms (ActiveRecord: 0.9ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/events/1" for ::1 at 2026-09-28 11:20:55 +0530
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/show.html.erb:15
+  Rendered events/show.html.erb within layouts/application (Duration: 2.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:20:57 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:21:00 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:00 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:21:01 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:01 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:21:01 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:01 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:21:02 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:02 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:08 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:12 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:16 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:18 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:21:18 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:18 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:21:19 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:19 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:23 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:26 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:28 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:30 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:32 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:34 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:36 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:38 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:40 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:42 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:43 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:45 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:47 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:48 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:53 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:21:59 +0530
+[ActiveJob] [NotificationJob] [28c416a3-6d71-466e-bb76-a8cf06e504f4] Performing NotificationJob (Job ID: 28c416a3-6d71-466e-bb76-a8cf06e504f4) from Sidekiq(default) enqueued at 2026-09-28T05:49:59.663989000Z with arguments: "Event", 1
+[ActiveJob] [NotificationJob] [83e4b76c-dae2-4d4a-94b9-597072aedd05] Performing NotificationJob (Job ID: 83e4b76c-dae2-4d4a-94b9-597072aedd05) from Sidekiq(default) enqueued at 2026-09-28T05:50:05.666649000Z with arguments: "Event", 2
+[ActiveJob] [NotificationJob] [37d3a89b-6925-42d5-8611-a261797d6806] Performing NotificationJob (Job ID: 37d3a89b-6925-42d5-8611-a261797d6806) from Sidekiq(default) enqueued at 2026-09-28T05:50:48.844399000Z with arguments: "Event", 2
+[ActiveJob] [NotificationJob] [934460fd-da3b-4ac8-a76b-6b5027853550] Performing NotificationJob (Job ID: 934460fd-da3b-4ac8-a76b-6b5027853550) from Sidekiq(default) enqueued at 2026-09-28T05:50:55.466123000Z with arguments: "Event", 1
+[ActiveJob] [NotificationJob] [28c416a3-6d71-466e-bb76-a8cf06e504f4] Error performing NotificationJob (Job ID: 28c416a3-6d71-466e-bb76-a8cf06e504f4) from Sidekiq(default) in 5.14ms: NoMethodError (undefined method `find_by' for an instance of String):
+/Users/varunmukherjee/Developer/gitlab-interview/interview-task-284836716002-aV0Eh/app/jobs/notification_job.rb:5:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:68:in `block in _perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/i18n-1.15.2/lib/i18n.rb:383:in `with_locale'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/core_ext/time/zones.rb:65:in `use_zone'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:67:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:32:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:51:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:13:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:40:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:39:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:11:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `block in tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:38:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/broadcast_logger.rb:228:in `method_missing'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:39:in `tag_logger'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:29:in `block in execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:79:in `block (4 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:78:in `block (3 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:27:in `execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:13:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:220:in `execute_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:185:in `block (4 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:180:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job/interrupt_handler.rb:9:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:26:in `track'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:134:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:173:in `invoke'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:184:in `block (3 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:145:in `block (6 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:118:in `local'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:144:in `block (5 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:27:in `block in call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:26:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:139:in `block (4 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:281:in `stats'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:134:in `block (3 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:15:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:133:in `block (2 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:85:in `global'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:132:in `block in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:40:in `prepare'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:131:in `dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:183:in `block (2 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `block in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:86:in `process_one'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:76:in `run'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:10:in `watchdog'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:19:in `block in safe_thread'
+[ActiveJob] [NotificationJob] [83e4b76c-dae2-4d4a-94b9-597072aedd05] Error performing NotificationJob (Job ID: 83e4b76c-dae2-4d4a-94b9-597072aedd05) from Sidekiq(default) in 5.28ms: NoMethodError (undefined method `find_by' for an instance of String):
+/Users/varunmukherjee/Developer/gitlab-interview/interview-task-284836716002-aV0Eh/app/jobs/notification_job.rb:5:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:68:in `block in _perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/i18n-1.15.2/lib/i18n.rb:383:in `with_locale'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/core_ext/time/zones.rb:65:in `use_zone'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:67:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:32:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:51:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:13:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:40:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:39:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:11:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `block in tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:38:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/broadcast_logger.rb:228:in `method_missing'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:39:in `tag_logger'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:29:in `block in execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:79:in `block (4 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:78:in `block (3 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:27:in `execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:13:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:220:in `execute_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:185:in `block (4 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:180:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job/interrupt_handler.rb:9:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:26:in `track'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:134:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:173:in `invoke'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:184:in `block (3 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:145:in `block (6 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:118:in `local'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:144:in `block (5 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:27:in `block in call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:26:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:139:in `block (4 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:281:in `stats'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:134:in `block (3 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:15:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:133:in `block (2 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:85:in `global'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:132:in `block in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:40:in `prepare'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:131:in `dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:183:in `block (2 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `block in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:86:in `process_one'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:76:in `run'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:10:in `watchdog'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:19:in `block in safe_thread'
+[ActiveJob] [NotificationJob] [37d3a89b-6925-42d5-8611-a261797d6806] Error performing NotificationJob (Job ID: 37d3a89b-6925-42d5-8611-a261797d6806) from Sidekiq(default) in 6.47ms: NoMethodError (undefined method `find_by' for an instance of String):
+/Users/varunmukherjee/Developer/gitlab-interview/interview-task-284836716002-aV0Eh/app/jobs/notification_job.rb:5:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:68:in `block in _perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/i18n-1.15.2/lib/i18n.rb:383:in `with_locale'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/core_ext/time/zones.rb:65:in `use_zone'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:67:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:32:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:51:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:13:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:40:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:39:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:11:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `block in tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:38:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/broadcast_logger.rb:228:in `method_missing'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:39:in `tag_logger'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:29:in `block in execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:79:in `block (4 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:78:in `block (3 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:27:in `execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:13:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:220:in `execute_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:185:in `block (4 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:180:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job/interrupt_handler.rb:9:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:26:in `track'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:134:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:173:in `invoke'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:184:in `block (3 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:145:in `block (6 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:118:in `local'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:144:in `block (5 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:27:in `block in call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:26:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:139:in `block (4 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:281:in `stats'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:134:in `block (3 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:15:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:133:in `block (2 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:85:in `global'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:132:in `block in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:40:in `prepare'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:131:in `dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:183:in `block (2 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `block in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:86:in `process_one'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:76:in `run'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:10:in `watchdog'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:19:in `block in safe_thread'
+[ActiveJob] [NotificationJob] [934460fd-da3b-4ac8-a76b-6b5027853550] Error performing NotificationJob (Job ID: 934460fd-da3b-4ac8-a76b-6b5027853550) from Sidekiq(default) in 7.28ms: NoMethodError (undefined method `find_by' for an instance of String):
+/Users/varunmukherjee/Developer/gitlab-interview/interview-task-284836716002-aV0Eh/app/jobs/notification_job.rb:5:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:68:in `block in _perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/i18n-1.15.2/lib/i18n.rb:383:in `with_locale'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/core_ext/time/zones.rb:65:in `use_zone'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:67:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:32:in `_perform_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:51:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:13:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:40:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `block in instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/notifications.rb:210:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:39:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activerecord-7.2.3.1/lib/active_record/railties/job_runtime.rb:11:in `instrument'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/instrumentation.rb:26:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `block in perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `block in tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:38:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/tagged_logging.rb:138:in `tagged'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/broadcast_logger.rb:228:in `method_missing'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:39:in `tag_logger'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/logging.rb:32:in `perform_now'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:29:in `block in execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:79:in `block (4 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/railtie.rb:78:in `block (3 levels) in <class:Railtie>'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `instance_exec'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activejob-7.2.3.1/lib/active_job/execution.rb:27:in `execute'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:13:in `perform'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:220:in `execute_job'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:185:in `block (4 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:180:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job/interrupt_handler.rb:9:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:26:in `track'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/metrics/tracking.rb:134:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/middleware/chain.rb:173:in `invoke'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:184:in `block (3 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:145:in `block (6 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:118:in `local'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:144:in `block (5 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:27:in `block in call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:77:in `block in wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/execution_wrapper.rb:91:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/activesupport-7.2.3.1/lib/active_support/reloader.rb:74:in `wrap'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/rails.rb:26:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:139:in `block (4 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:281:in `stats'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:134:in `block (3 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:15:in `call'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:133:in `block (2 levels) in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_retry.rb:85:in `global'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:132:in `block in dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/job_logger.rb:40:in `prepare'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:131:in `dispatch'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:183:in `block (2 levels) in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:182:in `block in process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `handle_interrupt'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:181:in `process'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:86:in `process_one'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/processor.rb:76:in `run'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:10:in `watchdog'
+/Users/varunmukherjee/.local/share/mise/installs/ruby/3.3.11/lib/ruby/gems/3.3.0/gems/sidekiq-7.3.9/lib/sidekiq/component.rb:19:in `block in safe_thread'
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:04 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:09 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:13 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:18 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:23 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:29 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:33 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:22:38 +0530
+Started GET "/sidekiq/queues" for 127.0.0.1 at 2026-09-28 11:22:39 +0530
+Started GET "/sidekiq/retries" for 127.0.0.1 at 2026-09-28 11:22:42 +0530
+Started POST "/sidekiq/retries/all/retry" for 127.0.0.1 at 2026-09-28 11:23:26 +0530
+Started GET "/sidekiq/retries" for 127.0.0.1 at 2026-09-28 11:23:26 +0530
+[ActiveJob] [NotificationJob] [934460fd-da3b-4ac8-a76b-6b5027853550] Performing NotificationJob (Job ID: 934460fd-da3b-4ac8-a76b-6b5027853550) from Sidekiq(default) enqueued at 2026-09-28T05:50:55.466123000Z with arguments: "Event", 1
+[ActiveJob] [NotificationJob] [37d3a89b-6925-42d5-8611-a261797d6806] Performing NotificationJob (Job ID: 37d3a89b-6925-42d5-8611-a261797d6806) from Sidekiq(default) enqueued at 2026-09-28T05:50:48.844399000Z with arguments: "Event", 2
+[ActiveJob] [NotificationJob] [934460fd-da3b-4ac8-a76b-6b5027853550]   [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActiveJob] [NotificationJob] [934460fd-da3b-4ac8-a76b-6b5027853550]   ↳ app/jobs/notification_job.rb:5:in `perform'
+[ActiveJob] [NotificationJob] [37d3a89b-6925-42d5-8611-a261797d6806]   [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[ActiveJob] [NotificationJob] [37d3a89b-6925-42d5-8611-a261797d6806]   ↳ app/jobs/notification_job.rb:5:in `perform'
+[ActiveJob] [NotificationJob] [934460fd-da3b-4ac8-a76b-6b5027853550] Performed NotificationJob (Job ID: 934460fd-da3b-4ac8-a76b-6b5027853550) from Sidekiq(default) in 40.39ms
+[ActiveJob] [NotificationJob] [37d3a89b-6925-42d5-8611-a261797d6806] Performed NotificationJob (Job ID: 37d3a89b-6925-42d5-8611-a261797d6806) from Sidekiq(default) in 40.91ms
+[ActiveJob] [NotificationJob] [28c416a3-6d71-466e-bb76-a8cf06e504f4] Performing NotificationJob (Job ID: 28c416a3-6d71-466e-bb76-a8cf06e504f4) from Sidekiq(default) enqueued at 2026-09-28T05:49:59.663989000Z with arguments: "Event", 1
+[ActiveJob] [NotificationJob] [83e4b76c-dae2-4d4a-94b9-597072aedd05] Performing NotificationJob (Job ID: 83e4b76c-dae2-4d4a-94b9-597072aedd05) from Sidekiq(default) enqueued at 2026-09-28T05:50:05.666649000Z with arguments: "Event", 2
+[ActiveJob] [NotificationJob] [28c416a3-6d71-466e-bb76-a8cf06e504f4]   [1m[36mEvent Load (0.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[ActiveJob] [NotificationJob] [28c416a3-6d71-466e-bb76-a8cf06e504f4]   ↳ app/jobs/notification_job.rb:5:in `perform'
+[ActiveJob] [NotificationJob] [83e4b76c-dae2-4d4a-94b9-597072aedd05]   [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[ActiveJob] [NotificationJob] [83e4b76c-dae2-4d4a-94b9-597072aedd05]   ↳ app/jobs/notification_job.rb:5:in `perform'
+[ActiveJob] [NotificationJob] [28c416a3-6d71-466e-bb76-a8cf06e504f4] Performed NotificationJob (Job ID: 28c416a3-6d71-466e-bb76-a8cf06e504f4) from Sidekiq(default) in 11.62ms
+[ActiveJob] [NotificationJob] [83e4b76c-dae2-4d4a-94b9-597072aedd05] Performed NotificationJob (Job ID: 83e4b76c-dae2-4d4a-94b9-597072aedd05) from Sidekiq(default) in 11.38ms
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:23:28 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:23:28 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:23:34 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:23:38 +0530
+Started GET "/sidekiq/queues" for 127.0.0.1 at 2026-09-28 11:23:42 +0530
+Started GET "/sidekiq/retries" for 127.0.0.1 at 2026-09-28 11:23:44 +0530
+Started GET "/sidekiq/scheduled" for 127.0.0.1 at 2026-09-28 11:23:45 +0530
+Started GET "/sidekiq/morgue" for 127.0.0.1 at 2026-09-28 11:23:46 +0530
+Started GET "/sidekiq/busy" for 127.0.0.1 at 2026-09-28 11:23:47 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:23:50 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:23:50 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:23:55 +0530
+Started GET "/sidekiq/busy" for 127.0.0.1 at 2026-09-28 11:23:57 +0530
+Started GET "/sidekiq/queues" for 127.0.0.1 at 2026-09-28 11:23:58 +0530
+Started GET "/sidekiq/retries" for 127.0.0.1 at 2026-09-28 11:23:59 +0530
+Started GET "/sidekiq/scheduled" for 127.0.0.1 at 2026-09-28 11:24:00 +0530
+Started GET "/sidekiq/" for 127.0.0.1 at 2026-09-28 11:24:01 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:01 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:07 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:12 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:17 +0530
+Started GET "/events" for ::1 at 2026-09-28 11:24:17 +0530
+Processing by EventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (2.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/events/index.html.erb:20
+  Rendered events/index.html.erb within layouts/application (Duration: 42.0ms | GC: 3.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | GC: 3.7ms)
+Completed 200 OK in 53ms (Views: 45.1ms | ActiveRecord: 2.6ms (4 queries, 1 cached) | GC: 3.7ms)
+
+
+Started GET "/events/3" for ::1 at 2026-09-28 11:24:21 +0530
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:67:in `set_event'
+  Rendering layout layouts/application.html.erb
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/events/show.html.erb:15
+  Rendered events/show.html.erb within layouts/application (Duration: 7.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | GC: 0.7ms)
+Completed 200 OK in 17ms (Views: 11.8ms | ActiveRecord: 0.5ms (2 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:22 +0530
+Started GET "/users/3" for ::1 at 2026-09-28 11:24:23 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/users/show.html.erb:16
+  Rendered users/show.html.erb within layouts/application (Duration: 9.8ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | GC: 0.2ms)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.3ms (2 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/users/3/edit" for ::1 at 2026-09-28 11:24:25 +0530
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.9ms | GC: 0.0ms)
+  Rendered users/edit.html.erb within layouts/application (Duration: 5.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | GC: 0.2ms)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:27 +0530
+Started PATCH "/users/3" for ::1 at 2026-09-28 11:24:29 +0530
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"rwvgRC20cLjFCJzZCBCZmDxNP29aPxvgdAVpO8uNnqWlrLpyVqjGS5uNqeHzUpWP9u546dI62S_nQ04ZrVbpUw", "user"=>{"name"=>"User 31", "email"=>"user5@email.com"}, "commit"=>"Update User", "id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `block in update'
+  [1m[36mUser Update (0.1ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "User 31"], ["updated_at", "2026-09-28 05:54:29.055168"], ["id", 3]]
+  ↳ app/controllers/users_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `block in update'
+[ActiveJob] Enqueued NotificationJob (Job ID: da72f096-84f9-4047-a0f6-fcde93e70364) to Sidekiq(default) with arguments: "User", 3
+Redirected to http://localhost:3000/users/3
+Completed 303 See Other in 24ms (ActiveRecord: 1.3ms (2 queries, 0 cached) | GC: 0.1ms)
+
+
+[ActiveJob] [NotificationJob] [da72f096-84f9-4047-a0f6-fcde93e70364] Performing NotificationJob (Job ID: da72f096-84f9-4047-a0f6-fcde93e70364) from Sidekiq(default) enqueued at 2026-09-28T05:54:29.072614000Z with arguments: "User", 3
+[ActiveJob] [NotificationJob] [da72f096-84f9-4047-a0f6-fcde93e70364]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[ActiveJob] [NotificationJob] [da72f096-84f9-4047-a0f6-fcde93e70364]   ↳ app/jobs/notification_job.rb:5:in `perform'
+[ActiveJob] [NotificationJob] [da72f096-84f9-4047-a0f6-fcde93e70364] Performed NotificationJob (Job ID: da72f096-84f9-4047-a0f6-fcde93e70364) from Sidekiq(default) in 17.4ms
+Started GET "/users/3" for ::1 at 2026-09-28 11:24:29 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mEvent Load (0.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/users/show.html.erb:16
+  Rendered users/show.html.erb within layouts/application (Duration: 1.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | GC: 0.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.1ms (2 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/users" for ::1 at 2026-09-28 11:24:31 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  [1m[36mEvent Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE "events"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/users/index.html.erb:20
+  [1m[36mEvent Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE "events"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/users/index.html.erb:20
+  [1m[36mEvent Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE "events"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/users/index.html.erb:20
+  Rendered users/index.html.erb within layouts/application (Duration: 16.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | GC: 0.2ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.3ms (4 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:32 +0530
+Started GET "/users/2/edit" for ::1 at 2026-09-28 11:24:34 +0530
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | GC: 0.0ms)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started PATCH "/users/2" for ::1 at 2026-09-28 11:24:36 +0530
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"XQv_WloaPd70nGveVLCm2VmPi5fJtUzvf3hSjl1dqSZXrKVsIQaLLaoZXuav8qrOkyzMEUGwjiDsPnWsO4be0A", "user"=>{"name"=>"User 21", "email"=>"user2@email.com"}, "commit"=>"Update User", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `block in update'
+  [1m[36mUser Update (1.3ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "User 21"], ["updated_at", "2026-09-28 05:54:36.648930"], ["id", 2]]
+  ↳ app/controllers/users_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `block in update'
+[ActiveJob] Enqueued NotificationJob (Job ID: 1b8efff7-05a3-4749-9145-9334a1a22d93) to Sidekiq(default) with arguments: "User", 2
+Redirected to http://localhost:3000/users/2
+Completed 303 See Other in 9ms (ActiveRecord: 1.1ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+[ActiveJob] [NotificationJob] [1b8efff7-05a3-4749-9145-9334a1a22d93] Performing NotificationJob (Job ID: 1b8efff7-05a3-4749-9145-9334a1a22d93) from Sidekiq(default) enqueued at 2026-09-28T05:54:36.652401000Z with arguments: "User", 2
+[ActiveJob] [NotificationJob] [1b8efff7-05a3-4749-9145-9334a1a22d93]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[ActiveJob] [NotificationJob] [1b8efff7-05a3-4749-9145-9334a1a22d93]   ↳ app/jobs/notification_job.rb:5:in `perform'
+[ActiveJob] [NotificationJob] [1b8efff7-05a3-4749-9145-9334a1a22d93] Performed NotificationJob (Job ID: 1b8efff7-05a3-4749-9145-9334a1a22d93) from Sidekiq(default) in 1.84ms
+Started GET "/users/2" for ::1 at 2026-09-28 11:24:36 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/views/users/show.html.erb:16
+  Rendered users/show.html.erb within layouts/application (Duration: 1.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.2ms (2 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:37 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:41 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:47 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:52 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:24:56 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:01 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:06 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:11 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:16 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:21 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:26 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:32 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:37 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:42 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:47 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:52 +0530
+Started GET "/sidekiq/stats" for 127.0.0.1 at 2026-09-28 11:25:57 +0530
